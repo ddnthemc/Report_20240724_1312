@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .flex-container {
+            display: flex;
+            align-items: center; /* Center vertically */
+        }
+        .play-icon, .stop-icon {
+            cursor: pointer;
+            font-size: 50px;
+            margin-left: 10px;
+        }
+        .label-cell {
+            width: 1%; /* Make the column as narrow as possible */
+            white-space: nowrap; /* Prevent text wrapping */
+        }
+    </style>
+</head>
+<body>
+    <h1>Prove 20 esemplari PocketGSM 2G</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Prototipo e registrazione</th>
+                <th>Commento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M1
+                        <span class="play-icon" onclick="togglePlay(this, 'pm1.mp3')">▶️</span>
+            
+                    </div>
+                </td>
+                <td>Comment 1</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M2
+                        <span class="play-icon" onclick="togglePlay(this, 'pm2.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td>Comment 2</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M3<br>No Audio
+                    </div>
+                </td>
+                <td>Non risponde alle chiamate nemmeno dopo una fase di allarme, mentre risponde correttamente al comando STATUS?</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M4
+                        <span class="play-icon" onclick="togglePlay(this, 'pm4.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td>Non si è spento nonostante la musichetta al ribasso</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M5
+                        <span class="play-icon" onclick="togglePlay(this, 'pm5.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M6
+                        <span class="play-icon" onclick="togglePlay(this, 'pm6.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M7
+                        <span class="play-icon" onclick="togglePlay(this, 'pm7.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M8
+                        <span class="play-icon" onclick="togglePlay(this, 'pm8.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td>Non si è spento nonostante la musichetta al ribasso</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M9
+                        <span class="play-icon" onclick="togglePlay(this, 'pm9.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M10
+                        <span class="play-icon" onclick="togglePlay(this, 'pm10.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M11
+                        <span class="play-icon" onclick="togglePlay(this, 'pm11.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M12
+                        <span class="play-icon" onclick="togglePlay(this, 'pm12.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td>Non si è spento nonostante la musichetta al ribasso</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M13
+                        <span class="play-icon" onclick="togglePlay(this, 'pm13.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M14
+                        <span class="play-icon" onclick="togglePlay(this, 'pm14.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M15
+                        <span class="play-icon" onclick="togglePlay(this, 'pm15.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td>Non si è spento nonostante la musichetta al ribasso</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M16
+                        <span class="play-icon" onclick="togglePlay(this, 'pm16.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M17
+                        <span class="play-icon" onclick="togglePlay(this, 'pm17.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M18
+                        <span class="play-icon" onclick="togglePlay(this, 'pm18.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td>Non si è spento nonostante la musichetta al ribasso</td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M19
+                        <span class="play-icon" onclick="togglePlay(this, 'pm19.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="label-cell">
+                    <div class="flex-container">
+                        M20
+                        <span class="play-icon" onclick="togglePlay(this, 'pm20.mp3')">▶️</span>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        let currentAudio = null;
+        let currentIcon = null;
+
+        function togglePlay(icon, file) {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                if (currentIcon) {
+                    currentIcon.textContent = '▶️';
+                }
+                if (currentAudio.src.includes(file)) {
+                    currentAudio = null;
+                    currentIcon = null;
+                    return;
+                }
+            }
+
+            currentAudio = new Audio(file);
+            currentAudio.play();
+            icon.textContent = '⏹️';
+            currentIcon = icon;
+            currentAudio.onended = () => {
+                icon.textContent = '▶️';
+                currentAudio = null;
+                currentIcon = null;
+            };
+        }
+    </script>
+</body>
+</html>
