@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descrizione</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .flex-container {
+            display: flex;
+            align-items: center; /* Center vertically */
+        }
+        .play-icon, .stop-icon {
+            cursor: pointer;
+            font-size: 50px;
+            margin-left: 10px;
+        }
+        .label-cell {
+            width: 1%; /* Make the column as narrow as possible */
+            white-space: nowrap; /* Prevent text wrapping */
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='index.html';">
+        Vedi il rapporto di prova
+      </button>
+    <h1 style="line-height: 100%; margin-bottom: 0cm">
+        Dettagli e note sulla prova audio dei Pocket GSM 2G.</h1>
+        <h2 style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Sequenza operazioni della prova.</h2>
+        <ol>
+            <li><p style="line-height: 100%; margin-bottom: 0cm">Inserimento SIM
+            card.</p></li>
+            <li><p style="line-height: 100%; margin-bottom: 0cm">Accensione
+            prodotto.</p></li>
+            <li><p style="line-height: 100%; margin-bottom: 0cm">Attesa
+            lampeggio Blu</p></li>
+            <li><p style="line-height: 100%; margin-bottom: 0cm">Attesa di
+            minimo 15 secondi</p></li>
+            <li><p style="line-height: 100%; margin-bottom: 0cm">Invio di SMS
+            <b>STATUS?</b></p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Attesa risposta.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Chiamata da cellulare verso Pocket GSM 2G.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Allo squillo, pressione del pulsante per rispondere e posizionamento
+            come da figura.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            La cassa acustica ripete in ciclo infinito un messaggio prefissato
+            (vedere video allegato). Il volume di tale cassa è regolato in modo
+            abbastanza alto, un poco superiore a quello che sarebbe l’intensità
+            di un interlocutore umano.</p></li>
+            <video width="640" height="360" controls>
+                <source src="Setup_prova.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Cellulare posto con microfono in MUTE e Vivavoce con volume
+            impostato a 8/9.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Spostamento del cellulare in chiamata in altra stanza dove non sia
+            possibili sentire l’audio generato dalla cassa acustica.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Utilizzando un secondo cellulare si effettua la registrazione di
+            almeno 20 secondi dell’audio emesso dal cellulare in chiamata che
+            è in funzione viva voce.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Chiousura della chiamata.</p></li>
+            <li><p style="line-height: 100%; margin-bottom: 0cm">Invio di un
+            nuovo comando SMS <b>STATUS?</b></p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Attesa risposta.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Spegnimento mediante pressione prolungata del Pocket GSM 2G.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Attesa della sequenza musicale di conferma spegnimento.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Attesa dello spegnimento del led che a volte avviene molti secondi
+            dopo lo spegnimento.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Estrazione della scheda SIM.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Verifica della assenza di lampeggio (a bassa cadenza) sul led del
+            prodotto per individuare i prototipi difettosi sullo spegnimento.
+            Essendo un lampeggio relativamente breve con grandi intervalli di
+            led spento è necessario osservare con attenzione per un congruo
+            numero di secondi il prototipo.</p></li>
+        </ol>
+        <p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+        <br/>
+        
+        </p>
+        <h2 style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+        Note aggiuntive.</h2>
+        <ul>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            La sensibilità dei microfoni varia notevolemte fra i prototipi.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            In alcuni pezzi il difetto del ronzio è altalenante.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            In alcuni pezzi il difetto non si presenta durante tutte le chiamate
+            e a volte si innesca magri dopo 20-30 o anche 60 secondi dopo
+            l’inizio della chiamata. Preciso che durante tutte le prove dei 20 prototipi ho effettuato una solo chiamata, riportata nella registrazione.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            A volte si ha l’impressione che il difetto sia dovuto anche
+            all’algoritmo di gestione della funzione vivavoce del Pocket,
+            anche se sicuramente parte dal ben noto ronzio con la cadenza delle
+            trasmissioni RF del sistema GSM 2G.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Trattandosi di un fenomeno osservato da tempo, ma di cui non abbiamo
+            una spiegazione tecnica, va considerato come un comportamento
+            anomalo fuori controllo, anche perché il prodotto ha posizionamenti
+            (di microfono e antenna, per citare solo i primi 2 elementi) poco
+            felici e assenze di schermature tali da non offrire garanzie a
+            priori. 
+            </p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Non va trascurato il fatto che l’anomalia potrebbe essere legata
+            anche al canale di comunicazione che la cella assegna alla
+            telefonata e quindi una singola prova effettuata sul prototipo,
+            potrebbe non essere significativa.</p></li>
+            <li><p style="font-weight: normal; line-height: 100%; margin-bottom: 0cm">
+            Forse l’unico principio che potrebbe avere una valenza è la
+            selezione dei dispositivi basato sulla sostanziale assenza del
+            disturbo a ronzio durante alcune telefonate effettuate in luoghi differenti.</p></li>
+        </ul>
+        
+
+</body>
+</html>
